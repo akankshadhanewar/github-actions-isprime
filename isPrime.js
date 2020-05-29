@@ -22,5 +22,5 @@ function test_prime(n)
 }
 
 var assert = require("assert");
-assert(test_prime(10) == true, "This is not a prime num");
+assert(test_prime(10) == false, "This is not a prime num");
 console.log(test_prime(37));
